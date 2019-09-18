@@ -1,0 +1,26 @@
+{
+    "title": "HazardWorks",
+    "description": "The official website of HazardWorks Development",
+
+    "cdn": {
+        "fontAwesome": "https://kit.fontawesome.com/57234c96f6.js",
+        "bootstrapCss": "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
+        "bootstrapJs": "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
+        "jQuery": "https://code.jquery.com/jquery-3.4.1.min.js"
+    },
+
+    "icons": {
+        "github": {
+            "icon": "fab fa-github-alt",
+            "color": "#800080"
+        },
+        "twitter": {
+            "icon": "fab fa-twitter",
+            "color": "#55ACEE"
+        },
+        "discord": {
+            "icon": "fab fa-discord",
+            "color": "#7289DA"
+        }
+    }
+}
