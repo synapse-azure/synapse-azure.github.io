@@ -25,7 +25,7 @@ const npmScript = (name, args = []) => {
     return thisFunction;
 }
 
-const cleanPreviousVersion = () => del([ 'assets/*','*.html' ]);
+const cleanPreviousVersion = () => del([ 'assets/**/*','*.html' ]);
 
 const copyAssets = () => gulp.src('source/assets/**/*')
     .pipe(imageMin())
