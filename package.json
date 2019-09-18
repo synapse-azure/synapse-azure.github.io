@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/TheHazardWorks/thehazardworks.github.io#readme",
   "dependencies": {
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-imagemin": "^6.1.0",
     "gulp-sizereport": "^1.2.1",
