@@ -4,7 +4,7 @@
   "description": "Hazard Official Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup": "npm install -d"
   },
   "repository": {
     "type": "git",
