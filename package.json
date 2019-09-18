@@ -1,0 +1,26 @@
+{
+  "name": "hazardworks.website",
+  "version": "0.0.0-alpha",
+  "description": "Hazard Official Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheHazardWorks/thehazardworks.github.io.git"
+  },
+  "author": "HazardWorks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheHazardWorks/thehazardworks.github.io/issues"
+  },
+  "homepage": "https://github.com/TheHazardWorks/thehazardworks.github.io#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-sizereport": "^1.2.1",
+    "markdown-tree": "0.0.0",
+    "pug": "^2.0.4"
+  }
+}
