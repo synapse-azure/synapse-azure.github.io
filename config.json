@@ -27,6 +27,12 @@
             "color": "#7289DA",
             "link": "https://discordapp.com/",
             "text": "Hazard#9093"
+        },
+        "twitch": {
+            "icon": "fab fa-twitch",
+            "color": "#6441A4",
+            "link": "https://www.twitch.tv/HazardWorks",
+            "text": "HazardWorks"
         }
     }
 }
