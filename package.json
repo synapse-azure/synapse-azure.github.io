@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "setup": "npm install -d",
-    "ts": "tsc --rootDir source/ts --outDir assets/js"
+    "ts": "tsc --rootDir source/ts --outDir assets/js",
+    "pug": "node buildpug.js",
+    "build": "node ./node_modules/gulp/bin/gulp.js build"
   },
   "repository": {
     "type": "git",
