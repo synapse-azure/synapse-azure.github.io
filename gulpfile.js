@@ -35,12 +35,10 @@ const sizeReport = () => gulp.src([
     'assets/js/*','assets/images/*','assets/css/*'
 ]).pipe(sizeRepo({ gzip: true, total: true }));
 
-const buildTypescript = npmScript('ts');
 const buildPug = npmScript('pug');
 
 const build = gulp.series(
     cleanPreviousVersion,
-    buildTypescript,
     buildPug,
     copyAssets,
     sizeReport

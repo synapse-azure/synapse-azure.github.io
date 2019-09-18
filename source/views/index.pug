@@ -16,7 +16,7 @@ body.bg-darker.text-white.text-center
         img#avatar.rounded-circle(href="./assets/images/avatar.png")
         h2#name.text-primary #{title}
 
-        each button in buttons.length ? buttons : [{link: '#', color: '#FFF', icon: 'fas fa-do-not-enter' text: 'None'}]
+        each button in buttons.length ? buttons : [{link: '#', color: '#FFF', icon: 'fas fa-do-not-enter', text: 'None'}]
             a.btn.btn-secondary(href=button.link,style="border-left: 2px solid " + button.color)
                 i(class=button.icon)
                 span  #{button.text}
