@@ -8,21 +8,16 @@ const del           = require('del');
 const runAsync = (command, args) => new Promise((resolve, reject) => {
     const proc = spawn(command, args).on('error', reject).on('exit', resolve);
 
-    proc.stdout.pipe(process.stdout);
     proc.stderr.pipe(process.stderr);
+    proc.stdout.pipe(process.stdout);
 })
 
 const readFile = (src) => fs.readFileSync(src, { encoding: 'utf-8' });
 
 const npmScript = (name, args = []) => {
-    let plat = process.platform;
-
-    const thisFunction = () => {
-        runAsync(plat === 'win32' ? 'npm.cmd' : 'npm', ['run', name, ...args]);
-    }
-
-    thisFunction.displayName = `npm run ${name}`;
-    return thisFunction;
+    const func = () => runAsync(process.platform === 'win32' ? 'npm.cmd' : 'npm', ['run', name, ...args]);
+    func.displayName = 'npm run ' + name;
+    return func
 }
 
 const cleanPreviousVersion = () => del([ 'assets/**/*','*.html' ]);

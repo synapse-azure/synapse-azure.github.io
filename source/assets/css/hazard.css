@@ -1,0 +1,11 @@
+:root {
+    --color-dark: #232323;
+    --color-black: #1C1C1C;
+    --color-hazard: #5EAB00;
+}
+
+.text-primary { color: var(--color-hazard) !important; }
+.bg-primary { background-color: var(--color-hazard) !important; }
+
+.bg-dark { background-color: var(--color-dark) !important; }
+.bg-darker { background-color: var(--color-black) !important; }
