@@ -12,15 +12,21 @@
     "icons": {
         "github": {
             "icon": "fab fa-github-alt",
-            "color": "#800080"
+            "color": "#800080",
+            "link": "https://github.com/TheHazardWorks",
+            "text": "TheHazardWorks"
         },
         "twitter": {
             "icon": "fab fa-twitter",
-            "color": "#55ACEE"
+            "color": "#55ACEE",
+            "link": "https://twitter.com/HazardWorks",
+            "text": "HazardWorks"
         },
         "discord": {
             "icon": "fab fa-discord",
-            "color": "#7289DA"
+            "color": "#7289DA",
+            "link": "https://discordapp.com/",
+            "text": "Hazard#9093"
         }
     }
 }
