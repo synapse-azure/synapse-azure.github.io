@@ -1,0 +1,22 @@
+doctype html
+
+html(lang="en-US")
+
+head
+    title #{title}
+    meta(name="description",content=description)
+    meta(name="copyright",content="HazardWorks 2019")
+    meta(name="author",content="HazardWorks")
+    link(rel="stylesheet",content=cdnBootstrapCss)
+    link(rel="stylesheet",content="./assets/css/hazard.css")
+
+body.bg-darker.text-white.text-center
+    
+    div#content.col-md-4
+        img#avatar.rounded-circle(href="./assets/images/avatar.png")
+        h2#name.text-primary #{title}
+
+        each button in buttons.length ? buttons : [{link: '#', color: '#FFF', icon: 'fas fa-do-not-enter' text: 'None'}]
+            a.btn.btn-secondary(href=button.link,style="border-left: 2px solid " + button.color)
+                i(class=button.icon)
+                span  #{button.text}
