@@ -11,6 +11,7 @@ html(lang="en-US")
             br
             img#avatar.rounded-circle(src="assets/images/avatar.png",style="height: 100px; width: 100px;")
             h1#name.text-primary #{title}
+            span #{description}
 
             each button in buttons.length ? buttons : [{link: '#', color: '#FFF', icon: 'fas fa-do-not-enter', text: 'None'}]
                 a.btn.bg-dark.text-white(href=button.link,style="width: 200px; border-left: 4px solid " + button.color)
