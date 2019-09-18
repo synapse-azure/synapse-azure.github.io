@@ -4,7 +4,8 @@
   "description": "Hazard Official Website",
   "main": "index.js",
   "scripts": {
-    "setup": "npm install -d"
+    "setup": "npm install -d",
+    "ts": "tsc --rootDir source/ts --outDir assets/js"
   },
   "repository": {
     "type": "git",
