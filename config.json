@@ -9,7 +9,7 @@
         "jQuery": "https://code.jquery.com/jquery-3.4.1.min.js"
     },
 
-    "icons": {
+    "buttons": {
         "github": {
             "icon": "fab fa-github-alt",
             "color": "#800080",
