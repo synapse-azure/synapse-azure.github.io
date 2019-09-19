@@ -43,7 +43,7 @@
     },
     "patreon": {
         "nuclear": [],
-        "true": [],
+        "true": ["Pipatra Alexev"],
         "small": ["Whisper","Rotius"]
     }
 }
