@@ -24,26 +24,23 @@ html(lang="en-US")
             br 
             br
 
-            h3.text-primary Nuclear Hazard Supporters!
-            ul#nuclear
-                if supportersNuclear.length
-                    span #{supportersNuclear.join(', ')}
-                else
-                    span There are no supporters at this tier!
+            h3#nuclear.text-primary Nuclear Hazard Supporters!
+            if supportersNuclear.length
+                span #{supportersNuclear.join(', ')}
+            else
+                span There are no supporters at this tier!
             
-            h3.text-primary True Hazard Supporters!
-            ul#true
-                if supportersTrue.length
-                    span #{supportersTrue.join(', ')}
-                else
-                    span There are no supporters at this tier!
+            h3#true.text-primary True Hazard Supporters!
+            if supportersTrue.length
+                span #{supportersTrue.join(', ')}
+            else
+                span There are no supporters at this tier!
         
-            h3.text-primary Small Hazard Supporters!
-            ul#small
-                if supportersSmall.length
-                    span #{supportersSmall.join(', ')}
-                else
-                    span There are no supporters at this tier!
+            h3#small.text-primary Small Hazard Supporters!
+            if supportersSmall.length
+                span #{supportersSmall.join(', ')}
+            else
+                span There are no supporters at this tier!
 
             small.text-muted &copy; #{title} #{new Date().getFullYear()}
         
