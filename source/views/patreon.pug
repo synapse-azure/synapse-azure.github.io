@@ -17,7 +17,7 @@ html(lang="en-US")
             br
             br
 
-            a.btn.bg-dark.text-white(href="https://www.patreon.com/hazardworks",style="width: 200px; border-left: 4px solid #F96854")
+            a.btn.bg-dark.text-white(href="https://www.patreon.com/hazardworks",style="width: 300px; border-left: 4px solid #F96854")
                 i(class="fab fa-patreon")
                 span  Support Me On Patreon!
 
@@ -25,16 +25,18 @@ html(lang="en-US")
             br
 
             h3.text-primary Nuclear Hazard Supporters!
-                ul#nuclear
-                    each patron in supportersNuclear.length ? supportersNuclear : ['There are no supporters at this tier!']
-                        li #{patron}
+            ul#nuclear
+                each patron in supportersNuclear.length ? supportersNuclear : ['There are no supporters at this tier!']
+                    li #{patron}
             
             h3.text-primary True Hazard Supporters!
-                ul#true
-                    each patron in supportersTrue.length ? supportersTrue : ['There are no supporters at this tier!']
-                        li #{patron}
-            
+            ul#true
+                each patron in supportersTrue.length ? supportersTrue : ['There are no supporters at this tier!']
+                    li #{patron}
+        
             h3.text-primary Small Hazard Supporters!
-                ul#small
-                    each patron in supportersSmall.length ? supportersSmall : ['There are no supporters at this tier!']
-                        li #{patron}
+            ul#small
+                each patron in supportersSmall.length ? supportersSmall : ['There are no supporters at this tier!']
+                    li #{patron}
+
+            small.text-muted &copy; #{title} #{new Date().getFullYear()}
