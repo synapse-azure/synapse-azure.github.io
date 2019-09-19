@@ -26,17 +26,27 @@ html(lang="en-US")
 
             h3.text-primary Nuclear Hazard Supporters!
             ul#nuclear
-                each patron in supportersNuclear.length ? supportersNuclear : ['There are no supporters at this tier!']
-                    li #{patron}
+                if supportersNuclear.length
+                    span #{supportersNuclear.join(', ')}
+                else
+                    span There are no supporters at this tier!
             
             h3.text-primary True Hazard Supporters!
             ul#true
-                each patron in supportersTrue.length ? supportersTrue : ['There are no supporters at this tier!']
-                    li #{patron}
+                if supportersTrue.length
+                    span #{supportersTrue.join(', ')}
+                else
+                    span There are no supporters at this tier!
         
             h3.text-primary Small Hazard Supporters!
             ul#small
-                each patron in supportersSmall.length ? supportersSmall : ['There are no supporters at this tier!']
-                    li #{patron}
+                if supportersSmall.length
+                    span #{supportersSmall.join(', ')}
+                else
+                    span There are no supporters at this tier!
 
             small.text-muted &copy; #{title} #{new Date().getFullYear()}
+        
+        script(src=cdnJQuery)
+        script(src=cdnBootstrapJs)
+        script(src=cdnFontAwesome)
