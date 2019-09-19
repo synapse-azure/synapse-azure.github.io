@@ -25,7 +25,11 @@ fs.readdir(sourcePath, function(error, files) {
                 cdnBootstrapJs: config.cdn.bootstrapJs,
                 cdnJQuery: config.cdn.jQuery,
 
-                buttons: []
+                buttons: [],
+
+                supportersSmall: config.patreon.small,
+                supportersTrue: config.patreon.true,
+                supportersNuclear: config.patreon.nuclear
             }
             let buttonKeys = Object.keys(config.buttons);
             buttonKeys.forEach((key) => {

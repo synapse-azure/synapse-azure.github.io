@@ -33,6 +33,17 @@
             "color": "#6441A4",
             "link": "https://www.twitch.tv/HazardWorks",
             "text": "HazardWorks"
+        },
+        "patreon": {
+            "icon": "fab fa-patreon",
+            "color": "#F96854",
+            "link": "patreon",
+            "text": "HazardWorks"
         }
+    },
+    "patreon": {
+        "nuclear": [],
+        "true": [],
+        "small": ["Whisper"]
     }
 }
