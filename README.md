@@ -1,2 +1,2 @@
-# thehazardworks.github.io
-HazardWorks Website
+# synapse-azure.github.io
+
