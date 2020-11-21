@@ -1,6 +1,6 @@
 {
-    "title": "HazardWorks",
-    "description": "Multiple Fursonas, Novice Software Engineer, Novice Musician and Ancient Egyptian Expert",
+    "title": "Synapse",
+    "description": "Discord Explorer, Server Maker",
 
     "cdn": {
         "fontAwesome": "https://kit.fontawesome.com/57234c96f6.js",
@@ -13,32 +13,32 @@
         "github": {
             "icon": "fab fa-github-alt",
             "color": "#800080",
-            "link": "https://github.com/TheHazardWorks",
-            "text": "TheHazardWorks"
+            "link": "https://github.com/synapse-azure",
+            "text": "Synapse-Azure"
         },
         "twitter": {
             "icon": "fab fa-twitter",
             "color": "#55ACEE",
-            "link": "https://twitter.com/HazardWorks",
-            "text": "HazardWorks"
+            "link": "https://twitter.com/SynapseAzure",
+            "text": "Utku"
         },
         "discord": {
             "icon": "fab fa-discord",
             "color": "#7289DA",
-            "link": "https://discordapp.com/",
-            "text": "Hazard#9093"
+            "link": "https://discord.com/users/591567129594036225",
+            "text": "quake#5000"
         },
         "twitch": {
             "icon": "fab fa-twitch",
             "color": "#6441A4",
-            "link": "https://www.twitch.tv/HazardWorks",
-            "text": "HazardWorks"
+            "link": "https://www.twitch.tv/tightcrusher",
+            "text": "Tightcrusher"
         },
         "patreon": {
             "icon": "fab fa-patreon",
             "color": "#F96854",
             "link": "patreon.html",
-            "text": "HazardWorks"
+            "text": "Utku"
         }
     },
     "patreon": {
